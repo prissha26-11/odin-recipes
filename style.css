@@ -1,0 +1,47 @@
+h1,h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-color: #d27d2d;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.recipe {
+    font-size: 35px;
+    color: white
+}
+
+.dessert1 {
+    background-color: rgb(193,154,107);
+}
+
+.dessert2 {
+    background-color: #954535;
+}
+
+.dessert3 {
+    background-color: hsl(19, 29%, 28%);
+}
+
+#centerbullet {
+    text-align: center;
+    list-style-position: inside;
+}
+
+#bullet3 {
+    text-align:end;
+    list-style-position: inside;
+}
