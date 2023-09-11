@@ -1,3 +1,4 @@
+
 h1,h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
@@ -13,35 +14,67 @@ h3 {
     font-size: 40px;
 }
 
-img {
+img, ul, p, ol {
     margin-left: auto;
     margin-right: auto;
+}
+
+img {
     display: block;
+    border: 10px solid #d27d2d;
 }
 
 .recipe {
-    font-size: 35px;
-    color: white
+    margin-top: 20px;
+    width: 400px;
+    height: 80px;
 }
 
 .dessert1 {
     background-color: rgb(193,154,107);
+    border: 5px solid rgb(135, 108, 75);
 }
 
 .dessert2 {
     background-color: #954535;
+    border: 5px solid #76372a;
 }
 
 .dessert3 {
     background-color: hsl(19, 29%, 28%);
+    border: 5px solid hsl(19, 29%, 28%);
 }
 
 #centerbullet {
-    text-align: center;
-    list-style-position: inside;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #bullet3 {
-    text-align:end;
-    list-style-position: inside;
+    margin-left: auto;
+}
+
+ul {
+    display: block;
+    list-style-type: none;
+    max-width: 1000px;
+    padding: 0px;
+}
+p, ol {
+    max-width: 1200px;
+}
+
+.ingredients {
+    text-align: center;
+}
+button {
+    width: 400px;
+    height: 80px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+body{
+    font-size: 25px;
 }
